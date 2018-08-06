@@ -1,0 +1,6 @@
+ web:
+  build: .
+  ports:
+    - 8091:8091
+  volumes:
+    - .:/app
